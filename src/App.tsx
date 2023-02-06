@@ -1,5 +1,8 @@
+/** @jsxImportSource @emotion/react */
+import Dice from "./components/Dice";
+
 function App() {
-  return <div className="App"></div>;
+  return <Dice />;
 }
 
 export default App;
