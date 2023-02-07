@@ -14,6 +14,7 @@ function Side({dots, direction}: {dots: number; direction: DiceSide}) {
         position: absolute;
         top: 0;
         left: 0;
+        border-radius: 3px;
         background: white;
         border: 1px solid black;
         display: flex;
@@ -22,7 +23,7 @@ function Side({dots, direction}: {dots: number; direction: DiceSide}) {
         transform: ${DICE_SIDE_TRANSFORM[direction]};
       `}
     >
-      {dots}
+      {direction}
     </div>
   );
 }

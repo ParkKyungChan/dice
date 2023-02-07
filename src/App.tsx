@@ -2,7 +2,12 @@
 import Dice from "./components/Dice";
 
 function App() {
-  return <Dice />;
+  return (
+    <>
+      <Dice />
+      {/* <Dice /> */}
+    </>
+  );
 }
 
 export default App;
