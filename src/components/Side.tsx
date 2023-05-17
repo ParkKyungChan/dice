@@ -3,7 +3,6 @@ import {css} from "@emotion/react";
 import {DICE_SIDE_TRANSFORM} from "../constants";
 
 function Side({dots, direction}: {dots: number; direction: DiceSide}) {
-  const dot = <span>a</span>;
   return (
     <div
       css={css`
